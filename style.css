@@ -83,12 +83,11 @@ body {
 
 
 .text-box{
-    width: 90%;
+    
     color:white;
-    position:absolute;
-    top:50%;
-    left: 50%;
-    transform:translate(-50%,-50%) ;
+    
+    
+    
     text-align: center;
     animation: sway 1s alternate;
 }
@@ -105,7 +104,7 @@ body {
 	justify-content: center;
 	align-items: flex-start;
 	border-radius: 50%;
-	padding: 8%;
+	padding-top: 4%;
 }
 .header {
 	background: rgba(255, 255, 255, 0.2);
@@ -141,6 +140,10 @@ body {
 	perspective: 1000px;
 	margin: 25px;
   }
+
+  .flip-card p{
+	font-family: 'Courier New', Courier, monospace;
+  }
   
   .flip-card-inner {
 	position: relative;
@@ -150,6 +153,8 @@ body {
 	transition: transform 0.6s;
 	transform-style: preserve-3d;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	
+	
   }
   
   .flip-card:hover .flip-card-inner {
@@ -167,10 +172,14 @@ body {
   .flip-card-front {
 	background-color: #bbb;
 	color: black;
+	
+	
+	
   }
   
   .flip-card-back {
 	background-color: #2980b9;
+	
 	color: white;
 	transform: rotateY(180deg);
   }
@@ -181,41 +190,12 @@ body {
 	width: 100%;
   }
  
-/* Default styles for large screens */
-/* You can put your default styles here */
 
-/* Media query for screens with a maximum width of 768px */
-@media screen and (max-width: 768px) {
-	/* Styles for screens up to 768px wide */
-	body {
-	  font-size: 16px; /* Adjust font size for smaller screens */
-	}
-  
-	.Logo1 img {
-	  width: 200px; /* Decrease image size for smaller screens */
-	  height: 200px;
-	}
-  
-	/* Add more responsive styles here */
-  }
-  
-  /* Media query for screens with a maximum width of 480px */
-  @media screen and (max-width: 480px) {
-	/* Styles for screens up to 480px wide */
-	body {
-	  font-size: 14px; /* Further adjust font size for even smaller screens */
-	}
-  
-	.Logo1 img {
-	  width: 150px; /* Decrease image size further for very small screens */
-	  height: 150px;
-	}
-  
-	/* Add more responsive styles here */
+  #contribution{
+	margin-left: 20%;
   }
 
-  
-  
-  
-  
-  
+.ppp{
+	
+	padding: 20px;
+}
