@@ -181,3 +181,41 @@ body {
 	width: 100%;
   }
  
+/* Default styles for large screens */
+/* You can put your default styles here */
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+	/* Styles for screens up to 768px wide */
+	body {
+	  font-size: 16px; /* Adjust font size for smaller screens */
+	}
+  
+	.Logo1 img {
+	  width: 200px; /* Decrease image size for smaller screens */
+	  height: 200px;
+	}
+  
+	/* Add more responsive styles here */
+  }
+  
+  /* Media query for screens with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+	/* Styles for screens up to 480px wide */
+	body {
+	  font-size: 14px; /* Further adjust font size for even smaller screens */
+	}
+  
+	.Logo1 img {
+	  width: 150px; /* Decrease image size further for very small screens */
+	  height: 150px;
+	}
+  
+	/* Add more responsive styles here */
+  }
+
+  
+  
+  
+  
+  
