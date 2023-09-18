@@ -100,7 +100,7 @@ body {
     border-top: 2px solid rgba(0, 0, 0, 0.1);
 
 }
-.Logo1 image{
+.Logo1 {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
