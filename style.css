@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #111;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 70px 0 0;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 80px;
+}
+.wrapper h2 {
+	text-align: left;
+	color: #fff;
+	font-weight: 300;
+	font-size: 20px;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+.line {
+	height: 35px;
+	max-width: 800px;
+	margin: 0 auto 10px auto;
+	line-height: 35px;
+	font-size: 15px;
+	color: white;
+	padding: 0 0 0 10px;
+	position: relative;
+	background: #262626;
+	border-radius: 50px;
+	z-index: -2;
+	font-weight: 900;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+.line::before {
+	content: '';
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: 25px;
+	top: 0;
+	z-index: -2;
+}
+.line::after {
+	content: '';
+	background: linear-gradient(45deg, #ee0979, #ff6a00);
+	height: 35px;
+	transition: 0.7s;
+	display: block;
+	width: 100%;
+	animation: animate 1 4s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50px;
+}
+.line1::after {
+	max-width: 65%;
+}
+.line2::after {
+	max-width: 50%;
+}
+.line3::after {
+	max-width: 40.5%;
+}
+.line4::after {
+	max-width: 50%;
+}
+@keyframes animate {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+
+.text-box{
+    width: 90%;
+    color:white;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    text-align: center;
+    animation: sway 1s alternate;
+}
+.footer{
+	top: 40%;
+	background: none;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+
+}
+.Logo1 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 8%;
+}
+.header {
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px); 
+	position: fixed; 
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px;
+  }
+  
+  .navbar a {
+	text-decoration: none;
+	color: #fff; 
+	margin: 0 10px; 
+	font-size: 18px;
+	transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+	color: #00bcd4; 
+  }
+ 
+
+ 
