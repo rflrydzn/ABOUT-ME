@@ -100,10 +100,11 @@ body {
     border-top: 2px solid rgba(0, 0, 0, 0.1);
 
 }
-.Logo1 {
+.Logo1 image{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	border-radius: 50%;
 	padding: 8%;
 }
 .header {
